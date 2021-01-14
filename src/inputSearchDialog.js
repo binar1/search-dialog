@@ -1,7 +1,7 @@
 const { LitElement, html } = require("lit-element");
 import "./TextFileds";
 import "./Dialog/Dialog";
-import { Get } from "../@service/HttpService";
+import { Get } from "./@service/HttpService";
 import "./Table/Table";
 class InpuDialog extends LitElement {
   static get properties() {
