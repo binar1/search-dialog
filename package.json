@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binar1/tree-web-component.git"
+    "url": "git+https://github.com/binar1/search-dialog.git"
   },
   "keywords": [
     "Search Dialog",
@@ -20,9 +20,9 @@
   "author": "Binar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/binar1/tree-web-component/issues"
+    "url": "https://github.com/binar1/search-dialog/issues"
   },
-  "homepage": "https://github.com/binar1/tree-web-component#readme",
+  "homepage": "https://github.com/binar1/search-dialog#readme",
   "dependencies": {
     "lit-element": "^2.2.0",
     "@material/mwc-textfield": "^0.19.1",
