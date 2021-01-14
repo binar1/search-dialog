@@ -45,7 +45,7 @@ class InpuDialog extends LitElement {
   
 
   async findByLink(value,open) {
-    let link = this.link.replace("value", value);
+    let link = this.link.replaceAll("value", value);
     let response = await Get(link,this.token);
     if (response.data.list.length > 0) {
       if (response.data.list.length > 1) {
