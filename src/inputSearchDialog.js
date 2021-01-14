@@ -17,6 +17,7 @@ class InpuDialog extends LitElement {
       ModalStatus: { type: Boolean },
       link: { type: String },
       listOption: { type: Array },
+      token:{type:String}
     };
   }
 
@@ -32,6 +33,7 @@ class InpuDialog extends LitElement {
     this.link = "";
     this.listOption = [];
     this.ModalStatus = false;
+    this.token=""
   }
 
   OneKeyPressed({ detail },open) {
@@ -44,7 +46,7 @@ class InpuDialog extends LitElement {
 
   async findByLink(value,open) {
     let link = this.link.replace("value", value);
-    let response = await Get(link, {}, true);
+    let response = await Get(link,this.token);
     if (response.data.list.length > 0) {
       if (response.data.list.length > 1) {
         this.listOption = response.data.list;
