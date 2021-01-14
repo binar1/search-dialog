@@ -1,0 +1,32 @@
+{
+  "name": "@binar/search-dialog",
+  "version": "1.0.25",
+  "description": "Its search dialog View Component",
+  "main": "./src/inputSearchDialog",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binar1/tree-web-component.git"
+  },
+  "keywords": [
+    "Search Dialog",
+    "Input Dialog",
+    "Search Input",
+    "litelement",
+    "polymer"
+  ],
+  "author": "Binar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binar1/tree-web-component/issues"
+  },
+  "homepage": "https://github.com/binar1/tree-web-component#readme",
+  "dependencies": {
+    "lit-element": "^2.2.0",
+    "@material/mwc-textfield": "^0.19.1",
+    "@material/mwc-button": "^0.19.1",
+    "@material/mwc-dialog": "^0.19.1"
+  }
+}

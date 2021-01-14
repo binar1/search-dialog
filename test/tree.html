@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script
+    type="module"
+    src="https://unpkg.com/@binar/tree-view-component"
+    ></script>
+  </head>
+  <body>
+    <input-search-dialog
+    link="/companies/1001/accounts?filter=bas_accounts.name[like]'value%25'"
+    label="search"
+    >
+  </input-search-dialog>
+  </body>
+</html>
+<script>
+  window.onload = function (e) {
+  let temp= document.getElementById('chart');
+
+    temp.addEventListener('item-selected',function ({detail}) {
+      console.log(detail.value);
+    })
+  };
+
+
+</script>
