@@ -1,6 +1,6 @@
 {
   "name": "@binar/search-dialog",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Its search dialog View Component",
   "main": "./src/inputSearchDialog",
   "scripts": {
@@ -28,6 +28,7 @@
     "@material/mwc-textfield": "^0.19.1",
     "@material/mwc-button": "^0.19.1",
     "@material/mwc-dialog": "^0.19.1",
-    "@material/mwc-formfield": "^0.19.1"
+    "@material/mwc-formfield": "^0.19.1",
+    "@material/mwc-icon": "^0.19.1"
   }
 }
