@@ -1,6 +1,6 @@
 {
   "name": "@binar/search-dialog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Its search dialog View Component",
   "main": "./src/inputSearchDialog",
   "scripts": {

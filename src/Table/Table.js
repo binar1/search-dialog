@@ -1,5 +1,5 @@
 const { LitElement, html, css } = require("lit-element");
-
+import '@material/mwc-button'
 class Table extends LitElement {
   static get styles() {
     return [

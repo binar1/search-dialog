@@ -138,7 +138,7 @@ class InpuDialog extends LitElement {
                 this.value = value;
                 this.ModalStatus = false;
                 this.selectedItem();
-              },
+              }
             },
           ]}
           .Rows=${this.listOption}
